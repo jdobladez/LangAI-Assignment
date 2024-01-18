@@ -40,8 +40,9 @@ along with accuracy and MCC (Mathew's Correlation Coefficient). The most optimal
 is also displayed. 
 
 ### 6) FastText.ipynb
-Here, we can explore the FasText model trained to carry out the binary classification task. All the model's evaluation metrics including F1 score, precision and recall across classes are displayed 
+Here, we can explore the FastText model trained to carry out the binary classification task. All the model's evaluation metrics including F1 score, precision and recall across classes are displayed 
 along with accuracy (both training and testing) and MCC (Mathew's Correlation Coefficient). The 5-fold CV results are also displayed.
 
 ### 7) NB model.ipynb
-Here, we...
+In this notebook, we use the balanced dataset to first explore and compare the frequency of the top 30 bigrams for Eastern and Western European authors through visualisations. Next, N-gram features are extracted from the tokenized text which are then used to train the Naive Bayes classification model. This model learns patterns from the text to understand the differences between Eastern and Western authors. The model's evaluation metrics including F1 score, precision and recall across both classes (Eastern: 0, Western: 1) and for 2-gram features and 3-gram features, the 5-fold cross validation scores, and the MCC (Mathew's Correlation Coefficient) are calculated.
+ 
